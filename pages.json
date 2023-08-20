@@ -1,0 +1,197 @@
+{
+  "easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"^w-(.*)": "@/uni_modules/wmf-code/components/w-$1/index.vue"//二维码条形码的配置 如果是uni_modules
+  },
+	"pages": [
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "511固定资产运维管理"
+			}
+		},
+		{
+			"path": "pages/type/type_list",
+			"style": {
+				"navigationBarTitleText": "设备类别"
+			}
+		},
+		{
+			"path": "pages/type/type_add",
+			"style": {
+				"navigationBarTitleText": "添加类别"
+			}
+		},
+		{
+			"path": "pages/device/device_info",
+			"style": {
+				"navigationBarTitleText": "设备详情"
+			}
+		},
+		{
+			"path": "pages/device/device_list",
+			"style": {
+				"navigationBarTitleText": "设备列表"
+			}
+		},
+		{
+			"path": "pages/device/device_add",
+			"style": {
+				"navigationBarTitleText": "设备添加"
+			}
+		},
+		{
+			"path": "pages/device/device_edit",
+			"style": {
+				"navigationBarTitleText": "设备更新"
+			}
+		},
+		{
+			"path": "pages/organ/organ_add",
+			"style": {
+				"navigationBarTitleText": "机构添加"
+			}
+		},
+		{
+			"path": "pages/organ/organ_list",
+			"style": {
+				"navigationBarTitleText": "机构列表"
+			}
+		},
+		{
+			"path": "pages/device/device_scan",
+			"style": {
+				"navigationBarTitleText": "设备识别"
+			}
+		},
+		{
+			"path": "pages/person/person_list",
+			"style": {
+				"navigationBarTitleText": "用户列表"
+			}
+		},
+		{
+			"path": "pages/person/person_add",
+			"style": {
+				"navigationBarTitleText": "用户添加"
+			}
+		},
+		{
+			"path": "pages/person/person_edit",
+			"style": {
+				"navigationBarTitleText": "用户更新"
+			}
+		},
+		{
+			"path": "pages/device/device_repaire",
+			"style": {
+				"navigationBarTitleText": "设备报修"
+			}
+		},
+		{
+			"path": "pages/device/repaire_list",
+			"style": {
+				"navigationBarTitleText": "报修处理"
+			}
+		},
+		{
+			"path": "pages/device/repaire_info",
+			"style": {
+				"navigationBarTitleText": "报修详情"
+			}
+		},
+		{
+			"path": "pages/device/device_apply",
+			"style": {
+				"navigationBarTitleText": "设备申请"
+			}
+		},
+		{
+			"path": "pages/device/apply_list",
+			"style": {
+				"navigationBarTitleText": "采购处理"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/login/index/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/login/forget/forget",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+			"path": "pages/my/uppwd",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/order/device_check",
+			"style": {
+				"navigationBarTitleText": "盘点任务"
+			}
+		},
+		{
+			"path": "pages/order/do_check",
+			"style": {
+				"navigationBarTitleText": "设备盘点"
+			}
+		},
+		{
+			"path": "pages/my/my_repaire",
+			"style": {
+				"navigationBarTitleText": "我的报修"
+			}
+		},
+		{
+			"path": "pages/charts/charts",
+			"style": {
+				"navigationBarTitleText": "报表统计"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "511固定资产运维管理",
+		// #ifndef MP-ALIPAY
+    "navigationBarBackgroundColor": "#F8F8F8",
+    // #endif
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	  "backgroundColor": "#fff",
+	  "color": "#000000",
+	  "selectedColor": "#2196F3",
+	  "list": [
+	    {
+	      "pagePath": "pages/home/home",
+	      "iconPath": "static/images/home.png",
+	      "selectedIconPath": "static/images/home-active.png",
+	      "text": "首页"
+	    },	    
+	    {
+	      "pagePath": "pages/my/my",
+	      "iconPath": "static/images/my.png",
+	      "selectedIconPath": "static/images/my-active.png",
+	      "text": "我的"
+	    }
+	  ]
+	}
+}
